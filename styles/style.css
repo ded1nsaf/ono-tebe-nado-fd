@@ -6,7 +6,7 @@
   left: 80px;
   top: 110px;
   overflow: hidden;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Logo */
@@ -126,7 +126,7 @@
   width: 1100px;
   height: 757px;
   overflow: hidden;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
 }
 
 .cover_content {
@@ -151,7 +151,7 @@
 
 .cover_titles span {
   position: absolute;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: bold;
   letter-spacing: 30px;
@@ -368,7 +368,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer_contacts {
