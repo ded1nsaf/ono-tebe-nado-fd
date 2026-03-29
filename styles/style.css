@@ -1,10 +1,10 @@
 .header {
-  width: 1000px;
-  margin: 110px 0 0 80px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 110px auto 0;
   height: 105px;
   display: flex;
   align-items: flex-start;
-  box-sizing: border-box;
 }
 
 .menu {
@@ -150,6 +150,9 @@
 .cover_titles {
   display: flex;
   flex-direction: column;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .cover_titles span {
@@ -183,10 +186,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 50px;
-  margin-right: 55px;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 100px auto 50px;
+  padding: 0 0px;
+  box-sizing: border-box;
 }
 
 .cover_action p {
@@ -303,7 +307,6 @@
 }
 
 .about {
-  margin-left: 20px;
   width: 100%;
   margin-top: 120px;
 }
@@ -352,17 +355,21 @@
 
 .footer {
   width: 100%;
+  max-width: 1100px;
+  margin: 180px auto 0;
+  padding: 0 50px 60px;
+
   display: flex;
+
   justify-content: space-between;
   align-items: flex-start;
   font-family: Raleway, sans-serif;
   margin-top: 180px;
-  padding-bottom: 60px;
+  box-sizing: border-box;
 }
 
 .footer_menu {
   position: relative;
-  right: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,7 +391,6 @@
 
 .footer_social {
   position: relative;
-  right: 30px;
   width: 240px;
   display: flex;
   justify-content: flex-end;
