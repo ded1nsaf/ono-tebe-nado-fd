@@ -167,6 +167,7 @@
 
 .cover_tebe {
   text-align: center;
+  margin-right: -30px;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -321,7 +322,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 35px;
-  margin-left: 67px;
+  margin-left: 70px;
   flex-shrink: 0;
 }
 
@@ -350,8 +351,8 @@
 
 .footer {
   width: 100%;
-  margin-top: 172px;
-  margin-bottom: 78px;
+  margin-top: 153px;
+  margin-bottom: 100px;
 }
 
 .footer_container {
