@@ -1,7 +1,11 @@
 .header {
-  max-width: 1000px;
   width: 100%;
-  margin: 95px auto 0;
+  margin-top: 110px;
+}
+
+.header_container {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   align-items: flex-start;
 }
@@ -115,24 +119,23 @@
 }
 
 .cover {
-  max-width: 1100px;
+  width: 100%;
   margin-top: 78px;
   position: relative;
-  overflow: hidden;
-  font-family: Raleway, sans-serif;
   background-image: url('../images/cover.jpg');
+  background-position: top center;
   background-size: cover;
   background-position: center;
-}
+  }
 
 .cover_content {
+  max-width: 1100px;
+  margin: 0 auto;
   position: relative;
   z-index: 2;
   color: white;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .cover_titles {
@@ -173,7 +176,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
+  max-width: 1000px;
   width: 90%;
   margin: 100px auto 50px;
   padding: 0 0px;
@@ -343,7 +346,6 @@
 
 .footer {
   width: 100%;
-  margin-top: 140px;
   margin-top: 180px;
   margin-bottom: 60px;
 }
