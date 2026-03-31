@@ -125,7 +125,7 @@
   background-image: url('../images/cover.jpg');
   background-position: top center;
   background-size: cover;
-  background-position: center;
+  overflow-x: hidden;
   }
 
 .cover_content {
@@ -136,6 +136,8 @@
   color: white;
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  padding: 0 20px;
 }
 
 .cover_titles {
@@ -144,6 +146,7 @@
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .cover_titles span {
@@ -177,7 +180,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
-  width: 90%;
+  width: 100%;
   margin: 100px auto 50px;
   padding: 0 0px;
   box-sizing: border-box;
@@ -347,7 +350,7 @@
 .footer {
   width: 100%;
   margin-top: 180px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .footer_container {
