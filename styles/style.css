@@ -1,7 +1,7 @@
 .header {
   max-width: 1000px;
   width: 100%;
-  margin: 90px auto 0;
+  margin: 95px auto 0;
   display: flex;
   align-items: flex-start;
 }
@@ -115,7 +115,6 @@
 }
 
 .cover {
-  width: 100vw;
   max-width: 1100px;
   margin-top: 78px;
   position: relative;
@@ -138,8 +137,8 @@
 
 .cover_titles {
   display: flex;
+  max-width: 1000px;
   flex-direction: column;
-  max-width: 1100px;
   width: 100%;
   margin: 0 auto;
 }
@@ -157,7 +156,6 @@
 
 .cover_ono {
   text-align: left;
-  padding-left: 50px;
   margin-top: 167px;
 }
 
@@ -169,7 +167,6 @@
 
 .cover_nado {
   text-align: right;
-  padding-right: 35px;
 }
 
 .cover_action {
@@ -347,6 +344,7 @@
 .footer {
   width: 100%;
   margin-top: 140px;
+  margin-top: 180px;
   margin-bottom: 60px;
 }
 
