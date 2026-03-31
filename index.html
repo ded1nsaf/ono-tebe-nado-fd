@@ -30,7 +30,7 @@
 
     <main>
       <section class="cover">
-        <div class="cover_content cover_dark_theme">
+        <div class="cover_content overlay">
           <h1 class="cover_titles">
             <span class="cover_ono">ОНО</span>
             <span class="cover_tebe">ТЕБЕ</span>
@@ -48,7 +48,7 @@
         <ul class="lots_card-list">
           <li>
             <article class="card card_film">
-              <div class="card_overlay"></div>
+              <div class="overlay"></div>
               <div class="card_content">
                 <h3 class="card_title">
                   Фильм режиссёра, который бросил киношколу
@@ -62,7 +62,7 @@
           </li>
           <li>
             <article class="card card_book">
-              <div class="card_overlay"></div>
+              <div class="overlay"></div>
               <div class="card_content">
                 <h3 class="card_title">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -80,7 +80,7 @@
           </li>
           <li>
             <article class="card card_painting">
-              <div class="card_overlay"></div>
+              <div class="overlay"></div>
               <div class="card_content">
                 <h3 class="card_title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -129,35 +129,37 @@
     </main>
 
     <footer class="footer">
-      <address class="address address-footer">
-        <div class="phone"><a href="tel:+99995555555">+9 999 555 5555</a></div>
-        <div class="email"><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></div>
-        <div class="address-text">наб. Принсенграхт 263-265, Амстердам</div>
-      </address>
-      <nav class="footer_menu">
-        <ul>
-          <li class="menu__item menu__item--active"><a href="#">главная</a></li>
-          <li class="menu__item"><a href="#lots">посмотреть лоты</a></li>
-          <li class="menu__item"><a href="#about">об аукционе</a></li>
+      <div class="footer_container">
+        <address class="address address-footer">
+          <div class="phone"><a href="tel:+99995555555">+9 999 555 5555</a></div>
+          <div class="email"><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></div>
+          <div class="address-text">наб. Принсенграхт 263-265, Амстердам</div>
+        </address>
+        <nav class="footer_menu">
+          <ul>
+            <li class="menu__item menu__item--active"><a href="#">главная</a></li>
+            <li class="menu__item"><a href="#lots">посмотреть лоты</a></li>
+            <li class="menu__item"><a href="#about">об аукционе</a></li>
+          </ul>
+        </nav>
+        <ul class="footer_social">
+          <li class="social_icon">
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="images/yt.svg" alt="YouTube" />
+            </a>
+          </li>
+          <li class="social_icon">
+            <a href="https://vk.com/dedinsaf" target="_blank">
+              <img src="images/vk.svg" alt="VK" />
+            </a>
+          </li>
+          <li class="social_icon">
+            <a href="https://ru.pinterest.com/NInsafN/" target="_blank">
+              <img src="images/pinterest.svg" alt="Pinterest" />
+            </a>
+          </li>
         </ul>
-      </nav>
-      <ul class="footer_social">
-        <li class="social_icon">
-          <a href="https://www.youtube.com/" target="_blank">
-            <img src="images/yt.svg" alt="YouTube" />
-          </a>
-        </li>
-        <li class="social_icon">
-          <a href="https://vk.com/dedinsaf" target="_blank">
-            <img src="images/vk.svg" alt="VK" />
-          </a>
-        </li>
-        <li class="social_icon">
-          <a href="https://ru.pinterest.com/NInsafN/" target="_blank">
-            <img src="images/pinterest.svg" alt="Pinterest" />
-          </a>
-        </li>
-      </ul>
+      </div>
     </footer>
   </body>
 </html>

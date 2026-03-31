@@ -2,7 +2,6 @@
   max-width: 1000px;
   width: 100%;
   margin: 110px auto 0;
-  height: 105px;
   display: flex;
   align-items: flex-start;
 }
@@ -94,7 +93,6 @@
 /* Специфичные для footer */
 .address-footer {
   width: 265px;
-  margin-left: 60px;
   align-self: flex-start;
 }
 
@@ -118,7 +116,6 @@
 
 .cover {
   width: 100%;
-  height: 757px;
   margin-top: 78px;
   position: relative;
   overflow: hidden;
@@ -128,20 +125,11 @@
   background-position: center;
 }
 
-.cover_dark_theme {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  flex-shrink: 0;
-  order: 1;
-}
-
 .cover_content {
   position: relative;
   z-index: 2;
   color: white;
   text-transform: uppercase;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -153,6 +141,7 @@
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .cover_titles span {
@@ -167,19 +156,19 @@
 }
 
 .cover_ono {
-  margin-left: 48px;
+  text-align: left;
   margin-top: 167px;
   margin-bottom: 0;
 }
 
 .cover_tebe {
-  margin-left: 380px;
+  text-align: center;
   margin-top: 15px;
   margin-bottom: 20px;
 }
 
 .cover_nado {
-  margin-left: 668px;
+  text-align: right;
 }
 
 .cover_action {
@@ -229,8 +218,9 @@
 .lots_card-list {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
   gap: 30px;
-  margin: 0;
   padding: 0;
   justify-content: center;
   list-style: none;
@@ -266,7 +256,7 @@
   grid-area: stack;
 }
 
-.card_overlay {
+.overlay {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -355,24 +345,19 @@
 
 .footer {
   width: 100%;
-  max-width: 1100px;
-  margin: 180px auto 0;
-  padding: 0 50px 60px;
+  margin-top: 180px;
+  margin-bottom: 60px;
+}
 
+.footer_container {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-
   justify-content: space-between;
   align-items: flex-start;
-  font-family: Raleway, sans-serif;
-  margin-top: 180px;
-  box-sizing: border-box;
 }
 
 .footer_menu {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   align-self: flex-start;
 }
 
@@ -396,7 +381,6 @@
   justify-content: flex-end;
   gap: 48px;
   align-items: center;
-  padding: 10px 12px;
   margin: 0;
   list-style: none;
 }
