@@ -1,17 +1,17 @@
 .header {
   width: 100%;
-  margin-top: 110px;
+  margin-top: 105px;
 }
 
 .header_container {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .menu {
-  margin-top: 41px;
+  margin-top: 0px;
   margin-left: 5px;
   flex-shrink: 0;
   width: 361px;
@@ -89,7 +89,7 @@
 /* Специфичные для header */
 .address-header {
   width: 220px;
-  margin-top: 3.5px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: 15px;
 }
@@ -126,7 +126,7 @@
   background-position: top center;
   background-size: cover;
   overflow-x: hidden;
-  }
+}
 
 .cover_content {
   max-width: 1100px;
@@ -173,6 +173,7 @@
 
 .cover_nado {
   text-align: right;
+  margin-right: -30px;
 }
 
 .cover_action {
@@ -320,7 +321,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 35px;
-  margin-left: 47px;
+  margin-left: 57px;
   flex-shrink: 0;
 }
 
@@ -330,7 +331,7 @@
 }
 
 .about_text {
-  width: 688px;
+  width: 693px;
   margin-top: 135px;
 }
 
@@ -350,7 +351,7 @@
 .footer {
   width: 100%;
   margin-top: 180px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 .footer_container {
